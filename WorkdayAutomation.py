@@ -9,8 +9,8 @@ from datetime import datetime
 import os
 import time
 import requests
-EDGE_DRIVER_PATH="C:\\Users\\st185357\\Downloads\\edgedriver_win64\\msedgedriver.exe"
-EDGE_PROFILE_PATH="C:\\Users\\st185357\\AppData\\Local\\Microsoft\\Edge\\User Data\\Work"
+EDGE_DRIVER_PATH="C:\\Users\\Downloads\\edgedriver_win64\\msedgedriver.exe"
+EDGE_PROFILE_PATH="C:\\Users\\AppData\\Local\\Microsoft\\Edge\\User Data\\Work"
 edge_options=Options()
 edge_options.use_chromium=True
 edge_options.set_capability("goog:loggingPrefs",{"performance":"ALL"})
